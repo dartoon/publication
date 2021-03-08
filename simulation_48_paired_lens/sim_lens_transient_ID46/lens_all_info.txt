@@ -1,0 +1,27 @@
+Unit:
+	Length in arcsecond scale, 'phi_G' is Angle in radian system start from x axis anticlockwise.
+Cosmological para
+	FlatLambdaCDM, with Om=0.27 and H0: 73.907km/s/Mpc
+Pixel size is 0.13'' and 0.08'' before and after drizzle
+Time delay distance: TD_distance=(1+z_l)*D_l*D_s/D_ls:2196.872Mpc
+Time delay of BCD - A :
+	array([ 5.966,  8.361, 16.63 ])days
+Zeropoint of filter (AB system): 	25.9463
+Lens/Source redshift:	[0.408, 1.841]
+Lens mass model:
+	SPEMD:{'theta_E': 1.125, 'gamma': 1.96, 'center_x': 0, 'center_y': 0, 'q': 0.733, 'phi_G': 0.088}
+	Shear: 	({'e1': -0.006, 'e2': -0.008}, {'b': 0.01, 'phi_G': 0.485})'	 Note that e1=-b*cos(2*phi_G); e2=-b*sin(2*phi_G)'
+Lens light: 
+	{'amp': 332.091, 'R_sersic': 0.681, 'n_sersic': 2.75, 'center_x': 0.0, 'center_y': 0.0, 'e1': 0.047, 'e2': 0.008, 'phi_G': 0.086, 'q': 0.91, 'mag': 17.429}
+Source light in source plane:
+	{'amp': 71.667, 'R_sersic': 0.419, 'n_sersic': 2.222, 'center_x': 0.06, 'center_y': 0.05, 'phi_G': 1.178, 'q': 0.708, 'e1': -0.121, 'e2': 0.121, 'mag': 20.492}
+AGN light:
+	AGN position in source plane:	0.06,0.05
+	AGN amplitude in source plane:	0
+	AGN position in image plane:	x: array([ 0.136,  0.523,  1.105, -0.945])	y: array([ 1.232, -1.033, -0.099, -0.233])
+	AGN amplitude in image plane:	array([0., 0., 0., 0.])
+Host galaxy mag in the image plane: 18.016 mag, AGN total mag in the image plane: inf mag
+kappa_ext: 
+	0
+Time delay with external kappa i.e. TD_obs=TD*(1-k_ext):
+	array([ 5.966,  8.361, 16.63 ])days
